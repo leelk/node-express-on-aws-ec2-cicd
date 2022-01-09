@@ -10,3 +10,9 @@ app.listen(3000, function () {
 app.get('/', (req, res)=>{
     res.send('<h1> Express Demo <h1> <h4> Message: Success</h4><p> version 0.0.1');
 })
+
+
+app.get('/hello', (req, res)=>{
+    res.send('<h1> Express Demo <h1> <h4> Message: Success</h4><p> version 0.0.1');
+})
+
