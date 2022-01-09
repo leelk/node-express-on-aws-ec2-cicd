@@ -8,7 +8,7 @@ app.listen(3000, function () {
 
 
 
-    
+
 
 
 app.get('/', (req, res)=>{
@@ -18,7 +18,7 @@ app.get('/', (req, res)=>{
 
 
 
-app.get('/hello', (req, res)=>{
-    res.send('<h1> Express Demo <h1> <h4> Message: Success</h4><p> version 0.0.1');
+app.get('/send', (req, res)=>{
+    res.send([{id: 001, name: "Leel"},{id: 002, name: "Heshan"},{id: 003, name: "Sahan"}]);
 })
 
